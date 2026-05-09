@@ -39,18 +39,40 @@ add pricing data and audit engine.
 
 ## Day 3 — 2026-05-08
 
-**Hours worked:** 1
+**Hours worked:** 2
 
-**What I did:** Added audit engine logic with per-tool 
-recommendations and pricing data for all 8 required tools. 
-Understood how TypeScript interfaces work as data templates.
+**What I did:** Built the spend input form with all 
+required tools and plans. Added localStorage persistence 
+so form data survives page reloads. Fixed a JSX closing 
+tag bug in the select element.
 
-**What I learned:** The audit reasoning needs to be 
-financially defensible — not just "switch tools" but 
-actual usage-fit logic with numbers and reasons.
+**What I learned:** In JSX, self closing tags like 
+`/>` break everything if used on elements that have 
+children. Small syntax mistakes cause big errors.
 
-**Blockers / what I'm stuck on:** Have exams today 
-and tomorrow so limited time to code.
+**Blockers / what I'm stuck on:** Had exam today 
+so limited time. Fixed build errors before stopping.
 
-**Plan for tomorrow:** Keep git streak alive. Resume 
-full build on Day 5 after exams are done.
+**Plan for tomorrow:** Build the API route and 
+results page.
+
+## Day 4 — 2026-05-09
+
+**Hours worked:** 4
+
+**What I did:** Built the results page with per-tool 
+breakdown, AI summary, and email capture. Built the 
+leads API route with Supabase storage and Resend email. 
+Fixed TypeScript build errors. Successfully deployed 
+to Vercel at https://spendlens-3h7a.vercel.app
+
+**What I learned:** Vercel builds are stricter than 
+local dev — TypeScript errors that don't show locally 
+will fail the build. Always run npm run build before 
+pushing.
+
+**Blockers / what I'm stuck on:** Need to set up 
+tests and CI. Need to write all documentation files.
+
+**Plan for tomorrow:** Set up tests, write all 
+required documentation files, UI glow up.
