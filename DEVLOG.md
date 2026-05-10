@@ -76,3 +76,30 @@ tests and CI. Need to write all documentation files.
 
 **Plan for tomorrow:** Set up tests, write all 
 required documentation files, UI glow up.
+
+## Day 5 — 2026-05-10
+
+**Hours worked:** 6
+
+**What I did:** Major UI redesign with glassmorphism 
+and gradient effects on both home and results page. 
+Set up Jest testing with ts-jest — took multiple 
+attempts to get TypeScript working with Jest but 
+got all 6 tests passing. Wrote TESTS.md, PROMPTS.md, 
+PRICING_DATA.md, ARCHITECTURE.md, LANDING_COPY.md, 
+METRICS.md, GTM.md, ECONOMICS.md, REFLECTION.md.
+
+**What I learned:** Jest + TypeScript setup is 
+tricky — ts-jest needs specific config to handle 
+ES modules. Babel approach also works as fallback. 
+Vercel auto-redeploys on every git push which is 
+very convenient.
+
+**Blockers / what I'm stuck on:** Need to do 3 
+real user interviews tomorrow morning before I 
+can write USER_INTERVIEWS.md. Also need to write 
+README.md tomorrow.
+
+**Plan for tomorrow:** User interviews first thing 
+in the morning. Then README.md and USER_INTERVIEWS.md. 
+Final polish and submission.
