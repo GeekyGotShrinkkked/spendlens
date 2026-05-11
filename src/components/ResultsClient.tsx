@@ -157,7 +157,7 @@ export default function ResultsClient({ audit }: Props) {
             <div className="relative z-10">
               <div className="text-5xl mb-4">✅</div>
               <h2 className="text-2xl font-black text-emerald-400 mb-2">
-                You're spending well
+                You&apos;re spending well
               </h2>
               <p className="text-white/40 text-sm">
                 Your AI tool stack is already optimized.

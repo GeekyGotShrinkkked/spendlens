@@ -63,7 +63,7 @@ export default function Home() {
 
         <p className="text-white/50 text-lg mb-3 leading-relaxed">
           Enter your AI subscriptions. Get an instant audit showing
-          exactly where you're wasting money and what to do about it.
+          exactly where you&apos;re wasting money and what to do about it.
         </p>
 
         {/* Social proof */}
