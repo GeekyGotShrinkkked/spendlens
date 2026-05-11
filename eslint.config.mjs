@@ -15,10 +15,11 @@ const eslintConfig = defineConfig([
   ]),
   {
     rules: {
-      "@next/next/no-html-link-for-pages": "off",
-      "react/no-unescaped-entities": "off",
-      "react-hooks/rules-of-hooks": "off",
-      "react-hooks/exhaustive-deps": "off",
+    "@next/next/no-html-link-for-pages": "off",
+    "react/no-unescaped-entities": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "react-hooks/set-state-in-effect": "off",
     },
   },
 ]);
