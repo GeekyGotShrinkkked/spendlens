@@ -103,3 +103,30 @@ README.md tomorrow.
 **Plan for tomorrow:** User interviews first thing 
 in the morning. Then README.md and USER_INTERVIEWS.md. 
 Final polish and submission.
+
+## Day 6 — 2026-05-11
+
+**Hours worked:** 4
+
+**What I did:** Fixed CI pipeline — was failing due to 
+ESLint errors including unescaped entities and 
+set-state-in-effect rule. Got CI green by disabling 
+irrelevant rules and fixing ts-node setup for Jest. 
+Conducted 2 user interviews via WhatsApp. Wrote 
+USER_INTERVIEWS.md with real insights from conversations.
+Completed all required documentation files.
+
+**What I learned:** CI failures are often caused by 
+ESLint rules that are too strict for the codebase. 
+User interviews revealed that workflow disruption 
+is a bigger concern than price for developers — 
+they won't switch tools if it breaks their stack 
+even if it saves money.
+
+**Blockers / what I'm stuck on:** Could only get 
+2 user interviews instead of 3 — third person 
+didn't respond before deadline.
+
+**Plan for tomorrow:** Write README.md, do final 
+check on Vercel, verify commit count across 5+ days,
+submit Google Form before May 13 deadline.
