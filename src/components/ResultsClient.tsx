@@ -98,7 +98,6 @@ export default function ResultsClient({ audit }: Props) {
 
   return (
     <main className="min-h-screen bg-[#080810] text-white relative overflow-hidden">
-
       {/* Background effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-[-20%] left-[10%] w-[600px] h-[600px] rounded-full bg-emerald-500/10 blur-[120px]" />
@@ -121,9 +120,11 @@ export default function ResultsClient({ audit }: Props) {
           className="flex items-center gap-2 cursor-pointer"
           onClick={() => router.push("/")}
         >
-          <div className="w-7 h-7 rounded-lg bg-emerald-500 flex items-center justify-center text-black font-black text-sm">
-            S
-          </div>
+          <img
+            src="https://www.svgrepo.com/show/455629/magnifying-glass-money.svg"
+            alt="SpendLens logo"
+            className="w-8 h-8 invert"
+          />
           <span className="font-bold text-white tracking-tight text-lg">
             SpendLens
           </span>
@@ -137,7 +138,6 @@ export default function ResultsClient({ audit }: Props) {
       </div>
 
       <div className="relative z-10 max-w-2xl mx-auto px-6 py-12 space-y-6">
-
         {/* Hero savings card */}
         <div
           className="rounded-3xl p-8 text-center relative overflow-hidden"
@@ -160,8 +160,8 @@ export default function ResultsClient({ audit }: Props) {
                 You&apos;re spending well
               </h2>
               <p className="text-white/40 text-sm">
-                Your AI tool stack is already optimized.
-                Less than $100/month in potential savings identified.
+                Your AI tool stack is already optimized. Less than $100/month in
+                potential savings identified.
               </p>
             </div>
           ) : (
@@ -249,7 +249,8 @@ export default function ResultsClient({ audit }: Props) {
                     {rec.recommendedAction}
                     {rec.recommendedPlan && (
                       <span className="text-emerald-400">
-                        {" "}→ {rec.recommendedPlan}
+                        {" "}
+                        → {rec.recommendedPlan}
                       </span>
                     )}
                   </p>
@@ -348,7 +349,8 @@ export default function ResultsClient({ audit }: Props) {
                       submitting || !email
                         ? "rgba(255,255,255,0.05)"
                         : "linear-gradient(135deg, #10b981, #059669)",
-                    color: submitting || !email ? "rgba(255,255,255,0.3)" : "#000",
+                    color:
+                      submitting || !email ? "rgba(255,255,255,0.3)" : "#000",
                   }}
                 >
                   {submitting ? "Sending..." : "Send me the report →"}
@@ -380,7 +382,6 @@ export default function ResultsClient({ audit }: Props) {
             ← Run another audit
           </button>
         </div>
-
       </div>
     </main>
   );

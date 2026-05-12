@@ -3,7 +3,6 @@ import SpendForm from "@/components/SpendForm";
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#080810] text-white relative overflow-hidden">
-
       {/* Background effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-[-20%] left-[10%] w-[600px] h-[600px] rounded-full bg-emerald-500/10 blur-[120px]" />
@@ -23,9 +22,11 @@ export default function Home() {
       {/* Header */}
       <div className="relative z-10 px-8 py-5 flex items-center justify-between border-b border-white/5">
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-lg bg-emerald-500 flex items-center justify-center text-black font-black text-sm">
-            S
-          </div>
+          <img
+            src="https://www.svgrepo.com/show/455629/magnifying-glass-money.svg"
+            alt="SpendLens logo"
+            className="w-8 h-8 invert"
+          />
           <span className="font-bold text-white tracking-tight text-lg">
             SpendLens
           </span>
@@ -62,8 +63,8 @@ export default function Home() {
         </h1>
 
         <p className="text-white/50 text-lg mb-3 leading-relaxed">
-          Enter your AI subscriptions. Get an instant audit showing
-          exactly where you&apos;re wasting money and what to do about it.
+          Enter your AI subscriptions. Get an instant audit showing exactly
+          where you&apos;re wasting money and what to do about it.
         </p>
 
         {/* Social proof */}
@@ -80,7 +81,6 @@ export default function Home() {
       <div className="relative z-10 max-w-2xl mx-auto px-6 pb-20">
         <SpendForm />
       </div>
-
     </main>
   );
 }
