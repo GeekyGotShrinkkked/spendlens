@@ -7,8 +7,8 @@ Three conversations conducted during the week of
 
 ## Interview 1
 
-**Name:** (initials only if they prefer)
-**Role:** Developer / Researcher
+**Name:** Garvit Upadhyay
+**Role:** Developer / Researcher have specialization in ML Projects 
 **Company stage:** Personal project / freelance
 **Date:** 2026-05-11
 **Duration:** 10 minutes via WhatsApp
@@ -58,19 +58,19 @@ rather than blindly following suggestions.
 
 ## Interview 2
 
-**Name:** (initials only if they prefer)
+**Name:** Aryan Arora
 **Role:** Student
-**Company stage:** Personal use
+**Company stage:** Personal use/ Video Editing Task 
 **Date:** 2026-05-11
 **Duration:** 10 minutes via WhatsApp
 
 **Notes:**
 
-Student spending ₹100-200/month on AI tools.
-Uses ChatGPT free version and alternatives as needed.
+Student spending ₹1000-2000/month on AI tools.
+Uses ChatGPT GO free version and alternatives as needed.
 Feels current tools give good value but finds
 most subscription plans too expensive for students.
-Would audit if paying for overlapping features
+Weatures
 or unused subscriptions.
 
 **Direct quotes:**
@@ -85,7 +85,7 @@ or unused subscriptions.
 
 They said they'd audit spending if they noticed
 "overlapping features" — not just price. This
-means users care about redundancy, not just cost.
+means users care aboutould audit if paying for overlapping redundancy, not just cost.
 Two tools doing the same thing bothers them more
 than one expensive tool doing something unique.
 
